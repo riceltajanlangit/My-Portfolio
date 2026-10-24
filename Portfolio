@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f3edff;
+    color: #333;
+    line-height: 1.8;
+}
+
+.hero {
+    background: linear-gradient(135deg, #cbb8ff, #a78bfa);
+    color: white;
+    text-align: center;
+    padding: 60px 15px;
+}
+
+.profile {
+    width: 140px;
+    height: 140px;
+    border: 4px solid white;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    overflow: hidden;
+}
+
+.profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+nav {
+    background: #8b6bd6;
+    text-align: center;
+    padding: 12px 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 13px;
+}
+
+section {
+    background: white;
+    margin: 25px 18px;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 5px 18px #ded3f0;
+}
+
+h2 {
+    color: #7952c7;
+    border-bottom: 2px solid #eee7fa;
+    margin-bottom: 18px;
+    padding-bottom: 8px;
+}
+
+h3 {
+    color: #8b6bd6;
+    margin-bottom: 8px;
+}
+
+ul {
+    padding-left: 22px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.card {
+    background: #f6f1ff;
+    padding: 18px;
+    border-radius: 12px;
+    margin-top: 12px;
+}
+
+footer {
+    background: #8b6bd6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+</style>
+</head>
+
+<body>
+
+<header class="hero">
+    <div class="profile">
+        <img src="https://i.supaimg.com/cf3f4d34-c5a5-43b5-b4a4-6782ad97e05e/56fd621e-6f88-495b-be8c-58cb7633b40c.jpg" alt="My Photo">
+    </div>
+    <h1>Hi, I'm Ricel Jade Tajanlangit</h1>
+    <p>BSIT Student | Future IT Professional</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am Ricel Jade Tajanlangit, a first-year
+        Bachelor of Science in Information Technology
+        student at Cordova Public College. I enjoy
+        learning about computers, technology, and
+        web development. I want to improve my skills
+        and become a successful IT professional.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>My Skills</h2>
+    <p>My current skills and learning experiences include:</p>
+    <ul>
+        <li>Basic HTML and CSS</li>
+        <li>Basic C Programming</li>
+        <li>Computer Fundamentals</li>
+        <li>Computer Troubleshooting</li>
+        <li>Problem Solving</li>
+    </ul>
+</section>
+
+<section id="education">
+    <h2>My Education</h2>
+    <div class="card">
+        <h3>Bachelor of Science in Information Technology</h3>
+        <p>Cordova Public College</p>
+        <p>Section: BSIT 1G</p>
+    </div>
+</section>
+
+<section id="achievements">
+    <h2>My Achievements</h2>
+    <div class="card">
+        <h3>🏆 NC II - Computer Systems Servicing</h3>
+        <p>
+            Computer Systems Servicing focuses on
+            computer hardware, installation,
+            maintenance, and troubleshooting.
+            This is an important part of my technical
+            learning and IT journey.
+        </p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: riceljadet22gmail.com</p>
+    <p>Location: Cordova, Cebu</p>
+</section>
+
+<footer>
+    <p>© 2026 Ricel Jade Tajanlangit</p>
+    <p>My Personal Portfolio | Made with HTML and CSS</p>
+</footer>
+
+</body>
+</html>
